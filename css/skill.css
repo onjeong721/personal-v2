@@ -1,0 +1,95 @@
+section#skill {
+ 
+  height: 100vh;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FBF7F0;
+}
+section#skill .skill-main { 
+  padding: 0 20px;
+  height: 600px;
+}
+section#skill .skill-main .skill-cat {
+ 
+  flex-direction: row-reverse;
+  border-bottom: 1px solid black;
+}
+section#skill .skill-main .skill-cat h2 {
+ 
+}
+section#skill .skill-main .skill-cat p {
+ 
+}
+section#skill .skill-main .skill-contents {
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section#skill .skill-main .skill-contents p{
+  padding: 50px 0;
+  font-size: 50px;
+}
+section#skill .skill-main .skill-contents ul {
+  width: 100%;
+  gap: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+section#skill .skill-main .skill-contents ul li { 
+  padding: 10px;
+  text-align: center;
+  display: block;
+  background-color: white;
+  height: 120px;
+  text-align: center;
+  line-height: 30px;
+}
+section#skill .skill-main .skill-contents ul li::before{
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: #B85D42;
+  margin: 0 auto;
+  animation-name: gage;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+}
+@keyframes gage{
+  0%{
+    height: : 0px
+  }
+  50%{
+    height: 50px
+  }
+  100%{
+    height: 100px
+  }
+}
+section#skill .skill-main .skill-contents ul li:nth-child(2)::before{  
+  background-color: #597093;
+}
+section#skill .skill-main .skill-contents ul li:nth-child(3)::before{  
+  background-color: #D78B30;
+}
+section#skill .skill-main .skill-contents ul li:nth-child(4)::before{
+  background-color: #8D2425;
+  height: 40px;
+}
+section#skill .skill-main .skill-contents ul li:nth-child(5)::before{  
+  background-color: #CA8577;
+}
+section#skill .skill-main .skill-contents ul li:nth-child(6)::before{  
+  background-color: #817E60;
+}
+section#skill .skill-main .skill-contents ul li:nth-child(7)::before{
+  background-color: #253045;
+}
+section#skill .skill-main .skill-contents ul li:nth-child(8)::before{
+  background-color: #452C1C
+}

@@ -1,0 +1,96 @@
+section#portfolio {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 600px;
+  background-color: #FBF7F0;
+}
+section#portfolio .portfolio-main { 
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+section#portfolio .portfolio-main .portfolio-cat {
+  
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+section#portfolio .portfolio-main .portfolio-cat h2 {
+  
+}
+section#portfolio .portfolio-main .portfolio-cat p {
+  
+}
+section#portfolio .portfolio-main { 
+}
+section#portfolio .portfolio-main span {
+  margin-bottom: 30px;
+}
+section#portfolio .portfolio-main span a { 
+  font-size: 0;
+  padding: 5px;
+}
+section#portfolio .portfolio-main span a::after{
+  content: "";
+  background-color: #EDE1BF;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+section#portfolio .portfolio-main span a:hover::after{
+  background-color: #C4B197;
+}
+section#portfolio .portfolio-main ul {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+section#portfolio .portfolio-main ul li { 
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 50px;
+  background-repeat: no-repeat;
+}
+section#portfolio .portfolio-main ul li a:hover{
+  background-image: url(../img/accuniq.PNG);
+  display: block;
+  width: 500px;
+  height: 200px;
+  background-size: contain;
+}
+section#portfolio .portfolio-main ul li:nth-child(2){
+}
+section#portfolio .portfolio-main ul li:nth-child(3){
+}
+section#portfolio .portfolio-main ul li:nth-child(4){
+}
+section#portfolio .portfolio-main ul li a{
+  line-height: 140px;
+  display: block;
+  padding: 0 20px;
+}
+section#portfolio .portfolio-main ul li:nth-child(2) a:hover{
+  background-image: url(../img/lpoint.PNG);
+}
+section#portfolio .portfolio-main ul li:nth-child(3) a:hover{
+  background-image: url(../img/ks.PNG);
+}
+section#portfolio .portfolio-main ul li:nth-child(4) a:hover{
+  background-image: url(../img/p.PNG);
+}
+section#portfolio .portfolio-main ul li a img {
+  width: 210px;
+  height: 157px;
+  box-shadow: 10px 10px 10px #F3F1E6;
+  margin-bottom: 30px;
+}
+section#portfolio .portfolio-main ul li:nth-child(2) a img{
+  width: 480px;
+  height: 360px;
+  padding-top: 30px;
+}
+

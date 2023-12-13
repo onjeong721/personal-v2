@@ -1,0 +1,82 @@
+.wrap{
+  width: 1440px;
+ margin: 0 auto;
+}
+.padding50{
+ padding: 50px;
+}
+.paddingT50{
+ padding-top: 50px;
+}
+.paddingR50{
+ padding-right: 50px;
+}
+.paddingB50{
+ padding-bottom: 50px;
+}
+.paddingL50{
+ padding-left: 50px;
+}
+
+/* 폰트 */
+.hide{
+  display: hide;
+  font-size: 0;
+}
+.h1{
+ font-size: 64px;
+}
+.h2{
+ font-size: 52px;
+ text-transform: capitalize;
+ margin-bottom: 20px;
+ color: #7E5C4A;
+}
+.h3{
+ font-size: 44px;
+}
+.h4{
+ font-size: 34px;
+}
+.h5{
+ font-size: 24px;
+}
+.h6{
+ font-size: 20px;
+}
+.p{
+}
+.cat-txt{
+  font-size: 40px;
+}
+.cat-p{
+  color: #7E5C4A;
+  font-weight: bold;
+}
+
+/* flex */
+.flex{
+ display: flex;
+}
+.between{
+ justify-content: space-between;
+}
+.center{
+ justify-content: center;
+}
+.column{
+ flex-direction: column;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+/* 가상선택자 */
+
+.sasun::before{
+    content: "·";
+    margin-right: 20px;
+  }
+.block{
+  display: block
+}

@@ -1,0 +1,6 @@
+footer{
+    background-color: #E2D9D2;
+}
+footer marquee{
+    padding: 10px 0;
+}

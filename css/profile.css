@@ -1,0 +1,111 @@
+section#profile {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section#profile .profile-main {
+ height: 600px;
+ box-sizing: border-box;
+}
+section#profile .profile-main .pro-cat {
+  border-bottom: 1px solid #7E5C4A;
+}
+section#profile .profile-main .pro-cat h2 {
+ 
+}
+section#profile .profile-main .pro-cat p {
+ 
+}
+section#profile .profile-main span{
+
+}
+section#profile .profile-main span a{
+  
+}
+section#profile .profile-main .pro-contents {
+  align-items: center;
+}
+section#profile .profile-main .pro-contents .contents-one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section#profile .profile-main .pro-contents .contents-one::after{
+  content: "김민정";
+  font-size: 20px;
+  font-weight: bold;
+  color: #7E5C4A;
+  transform: translateX(-50%);
+  animation-name: fadein;
+  animation-duration: 3s;
+  height: 60px;
+  text-align: center;
+  width: 10px;
+  animation-delay: 1s;
+  transform: translateX(-300px);
+  animation-fill-mode: forwards;
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+section#profile .profile-main .pro-contents .contents-one span {
+  border: 1px solid #7E5C4A;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  text-align: left;
+  font-size: 20px;
+  display: block;
+  line-height: 300px;
+  animation-name: fadeinL;
+  animation-duration: 3s;
+  transform: translate(25%);
+}
+@keyframes fadeinL {
+  0% {
+    opacity: 0;
+    transform: translateX(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(50%);
+  }
+}
+section#profile .profile-main .pro-contents .contents-one span:nth-child(2){
+  transform: translateX(-25%);
+  text-align: right;
+  animation-name: fadeinR;
+  animation-duration: 3s;
+}
+@keyframes fadeinR {
+  0% {
+    opacity: 0;
+    transform: translateX(50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+section#profile .profile-main .pro-contents .contents-two {
+ 
+  padding-left: 100px;
+}
+section#profile .profile-main .pro-contents .contents-two .contents-txt {
+  padding: 40px 0;
+}
+section#profile .profile-main .pro-contents .contents-two .contents-txt h3{
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #4D3D35;
+  font-weight: bold;
+}
+section#profile .profile-main .pro-contents .contents-two .contents-txt p{
+  line-height: 1.6;
+}

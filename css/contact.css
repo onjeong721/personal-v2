@@ -1,0 +1,56 @@
+section#contact { 
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-height: 600px;
+}
+section#contact .contact-main { 
+  height: 600px;
+  justify-content: center;
+}
+section#contact .contact-main .contact-cat {
+  
+  flex-direction: row-reverse;
+  text-align: center;
+  border-bottom: 1px solid #7E5C4A;
+}
+section#contact .contact-main .contact-cat h2 {
+  
+}
+section#contact .contact-main .contact-cat p {
+
+}
+section#contact .contact-main ul {
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+  gap: 100px;
+  align-items: start;
+  padding-top: 200px;
+}
+section#contact .contact-main ul li {
+  width: 100%;
+  border-right: 1px solid #4D3D35;
+}
+section#contact .contact-main ul li:nth-child(4){
+  border-right: none;
+}
+section#contact .contact-main ul li a { 
+}
+section#contact .contact-main ul li a img{
+
+}
+section#contact .contact-main ul li a h3{
+  padding: 15px 0 10px 0;
+  font-weight: bold;
+}
+section#contact .contact-main ul li a p{
+  padding-bottom: 50px;
+}
+section#contact .contact-main ul li a span{
+  line-height: 20px;
+  font-size: 15px;
+  display: block;
+}
