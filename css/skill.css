@@ -34,7 +34,7 @@ section#skill .skill-main .skill-contents p{
   font-size: 50px;
 }
 section#skill .skill-main .skill-contents ul {
-  width: 100%;
+  width: 50%;
   gap: 40px;
   display: flex;
   justify-content: center;
@@ -44,16 +44,17 @@ section#skill .skill-main .skill-contents ul li {
   padding: 10px;
   text-align: center;
   display: block;
-  background-color: white;
-  height: 120px;
+  height: 60px;
   text-align: center;
-  line-height: 30px;
+  line-height: 15px;
+  width: calc(100% / 6);
+  font-size: 0;
 }
 section#skill .skill-main .skill-contents ul li::before{
   content: "";
   display: block;
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   background-color: #B85D42;
   margin: 0 auto;
   animation-name: gage;
@@ -65,10 +66,10 @@ section#skill .skill-main .skill-contents ul li::before{
     height: : 0px
   }
   50%{
-    height: 50px
+    height: 25px
   }
   100%{
-    height: 100px
+    height: 50px
   }
 }
 section#skill .skill-main .skill-contents ul li:nth-child(2)::before{  

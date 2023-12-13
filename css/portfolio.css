@@ -61,6 +61,7 @@ section#portfolio .portfolio-main ul li a:hover{
   width: 500px;
   height: 200px;
   background-size: contain;
+  background-repeat: no-repeat;
 }
 section#portfolio .portfolio-main ul li:nth-child(2){
 }

@@ -7,6 +7,7 @@ section#profile {
 section#profile .profile-main {
  height: 600px;
  box-sizing: border-box;
+ gap: 25px;
 }
 section#profile .profile-main .pro-cat {
   border-bottom: 1px solid #7E5C4A;
@@ -17,14 +18,26 @@ section#profile .profile-main .pro-cat h2 {
 section#profile .profile-main .pro-cat p {
  
 }
-section#profile .profile-main span{
-
-}
 section#profile .profile-main span a{
-  
+  display: inline-block;
+  padding: 0 5px;
+  color: #C4B197;
+}
+section#profile .profile-main span a:hover{
+  color:#7E5C4A;
 }
 section#profile .profile-main .pro-contents {
   align-items: center;
+  justify-content: center;
+}
+section#profile .profile-main .pro-contents > span{
+  padding: 25px 0;
+}
+section#profile .profile-main .pro-contents > span a{
+  padding: 25px 0;
+}
+section#profile .profile-main .pro-contents > span a::after{
+  content: "";
 }
 section#profile .profile-main .pro-contents .contents-one {
   display: flex;
@@ -54,7 +67,7 @@ section#profile .profile-main .pro-contents .contents-one::after{
     opacity: 1;
   }
 }
-section#profile .profile-main .pro-contents .contents-one span {
+section#profile .profile-main .pro-contents .contents-one > span {
   border: 1px solid #7E5C4A;
   border-radius: 50%;
   width: 300px;
